@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 16px;
+  font-family: sans-serif;
+}
 
 a, li{
   text-decoration: none;
@@ -17,16 +21,37 @@ body{
   flex-direction: column;
 }
 
-
+/* MAIN */
 
 .main-content{
   min-height: 90vh;
   background-color: black;
-  padding: 30px;
-  
+  padding-bottom: 5px;
+  display: flex;
+  row-gap: 8px;
+  column-gap: 3px;
+  justify-content: center;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.pics-profile{
+  max-width: 140px;
+  position: relative;
+}
+
+.name-profile{
+  color: white;
+  padding: 2px;
+  background-color: rgba(221, 221, 221,0.5);
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  font-size: 8px;
 }
 
 .tools-bar{
   min-height: 10vh;
-  background-color: #666;
+  background-color: rgb(34, 34, 34);
 }
