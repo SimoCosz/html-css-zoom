@@ -51,7 +51,50 @@ body{
   font-size: 8px;
 }
 
+/* TOOLS-BAR */
+
 .tools-bar{
   min-height: 10vh;
   background-color: rgb(34, 34, 34);
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  color: white;
+}
+
+.tools-elements{
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.icon, .icon-share{
+  text-align: center;
+}
+
+.text-icon, .text-icon-share{
+  text-align: center;
+  font-size: 10px;
+}
+
+.icon-share{
+  color:#4BC800;
+}
+
+.text-icon-share{
+  color:#4BC800;
+}
+
+.end-btn{
+  color: red;
+  padding: 30px 10px;
+  height: 100%;
+  font-size: 10px;
+}
+
+.end-btn:hover{
+  background-color: #4A4A4A;
 }
