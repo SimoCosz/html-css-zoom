@@ -25,6 +25,23 @@ img{
 body{
   background-color: black;
 }
+
+.screen-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 10px;
+}
+
+.screen-btn>div{
+  display: inline-block;
+  padding: 5px;
+  margin-left: 5px;
+  background-color: rgba(221, 221, 221,0.5);
+  border-radius: 5px;
+}
+
 .main-content{
   max-width: 1024px;
   margin: 0 auto;
