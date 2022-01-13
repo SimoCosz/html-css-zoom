@@ -16,12 +16,6 @@ img{
   width: 100%;
 }
 
-/* body{
-  display: flex;
-  flex-direction: column;
-} */
-
-/* MAIN */
 body{
   background-color: black;
 }
@@ -41,6 +35,8 @@ body{
   background-color: rgba(221, 221, 221,0.5);
   border-radius: 5px;
 }
+
+/* MAIN */
 
 .main-content{
   max-width: 1024px;
@@ -82,7 +78,7 @@ body{
   justify-content: space-between;
   align-items: center;
   column-gap: 10px;
-  color: #666;
+  color: white;
 }
 
 .tools-elements{
@@ -96,16 +92,20 @@ body{
 .icon, .icon-share{
   text-align: center;
   cursor: pointer;
+  padding: 5px;
 }
 
 .icon:hover, .chevron:hover{
-  color: white;
+  background-color: #444;
+  border-radius: 5px;
+;
 }
 
 .chevron{
   font-size: 10px;
   align-self: center;
   cursor: pointer;
+  padding: 5px;
 }
 
 .text-icon, .text-icon-share{
@@ -114,11 +114,12 @@ body{
 }
 
 .share{
-  color:darkgreen;
+  color:#4BC800;
 }
 
 .share:hover{
-  color: #4BC800;
+  background-color: #444;
+  border-radius: 5px;
 }
 
 .end-btn{
